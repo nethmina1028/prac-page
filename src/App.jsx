@@ -1,11 +1,12 @@
-
+import Hero from "./components/hero"
 
 function App() {
  
 
   return (
     <>
-     <div className="px-[4rem] ">
+     <div>
+      <Hero/>
           
      </div>
     </>
