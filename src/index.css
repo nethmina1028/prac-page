@@ -4,11 +4,52 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@layer base{
-    html{
+@layer base {
+    html {
         font-family: 'Inter', sans-serif;
     }
 
+    .nav {
+        color: black;
+        background: rgb(255, 255, 255); 
+        padding-top: 20px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        padding-left: 70px;
+        @apply flex items-center justify-between; 
+    }
 
+    .button {
+        @apply px-5 py-2 text-white bg-purple-600 rounded-lg; 
+    }
+
+    a {
+      @apply hover:text-gray-500; 
+  }
+  li {
+    font-size: 17px; 
+    font-weight: 500;
+}
+
+/*.logo {
+  
+  margin-right: 8px; 
+}
+
+.link {
+  
+  margin-left: 0; 
+} */
+
+    .nav-list {
+        @apply flex flex-col gap-8; 
+
+        @screen md {
+            @apply flex-row gap-[4vw]; 
+        }
+    }
+
+    .nav-actions {
+        @apply flex items-center gap-6;
+    }
 }
