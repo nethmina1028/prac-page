@@ -6,9 +6,9 @@ function Navbar() {
       <div className='nav'>
         <div className='flex items-center logo'>
           <img 
-            src="src/assets/logo.png" // Add the path to the logo image
+            src="src/assets/logo.png" 
             alt="Landwind Logo" 
-            className='w-8 h-8 mr-2' // Adjust width, height, and margin as necessary
+            className='w-8 h-8 mr-2' 
           />
           <span className="pr-10 text-2xl font-bold">Landwind</span>
 
