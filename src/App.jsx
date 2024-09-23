@@ -4,6 +4,7 @@ import Customer from "./components/customer"
 import Section from "./components/section"
 import Section2 from "./components/section2";
 import Socialproof from "./components/Socialproof";
+import Testimonials from "./components/testimonials";
 import { HiCheckCircle } from "react-icons/hi";
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
       <Section/> 
       <Section2/>
       <Socialproof/>
+      <Testimonials/>
      </div>
     </>
   )
