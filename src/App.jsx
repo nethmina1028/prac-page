@@ -1,6 +1,7 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import Hero from "./components/hero"
 import Section from "./components/section"
+import Socialproof from "./components/Socialproof"
 import { HiCheckCircle } from "react-icons/hi";
 function App() {
  
@@ -11,6 +12,7 @@ function App() {
      <Navbar/>
       <Hero/>
       <Section/> 
+      <Socialproof/>
      </div>
     </>
   )
