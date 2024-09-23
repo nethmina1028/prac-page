@@ -1,5 +1,6 @@
 import Hero from "./components/hero"
-
+import Section from "./components/section"
+import { HiCheckCircle } from "react-icons/hi";
 function App() {
  
 
@@ -7,7 +8,7 @@ function App() {
     <>
      <div>
       <Hero/>
-          
+      <Section/> 
      </div>
     </>
   )
