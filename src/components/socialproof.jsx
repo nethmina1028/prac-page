@@ -14,7 +14,7 @@ function Socialproof() {
         <p className='mb-4 text-2xl text-gray-500 '>Our rigorous security and compliance standards are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
          <hr></hr>
         <div className="flex items-center mt-6 ">
-       <p className='text-purple-600'>Explore Legality Guide</p>
+       <p className='text-purple-600'>Explore Legality Guide </p>
        <img src={Arrow} alt="arrow" className="ml-2" />
        </div>
 
