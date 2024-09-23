@@ -1,34 +1,37 @@
 import React from 'react';
-
+import Logo from '../assets/logo.png';
 function navbar() {
   return (
-    <>
-      <div className='nav'>
-        <div className='flex items-center logo'>
-          <img 
-            src="src/assets/logo.png" 
-            alt="Landwind Logo" 
-            className='w-8 h-8 mr-2' 
-          />
-          <span className="pr-10 text-2xl font-bold">Landwind</span>
+    <div className='flex flex-row items-center justify-between m-8'>
+        <div className='flex flex-row items-center'> 
+ 
+ 
+          <div className='flex flex-row items-center gap-4 pr-6'>
+           <img src={Logo} alt="logo" />
+           <h1 className='text-2xl font-bold'>LandWind</h1>
+          </div>
 
-          <div className='link'>
-          <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Marketplace</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+          <div className='hidden md:block '>
+          <ul className='flex flex-row gap-8 '>
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Portfolio</li>
+              <li>Contact</li>
+             </ul>
+          </div>
+           
+          
+
+            
         </div>
-        </div>
+
         
-        <div className="flex items-center gap-6">
-          <a href="#"><span className='font-bold'>Log In</span></a>
-          <button className='button'>Get Started</button>
+        <div className='flex flex-row items-center gap-4'>
+           <h1>Login</h1>
+           <h1 className='p-3 rounded-lg bg-primary'> get Started</h1>
         </div>
-      </div>
-    </>
+    </div>
   );
 }
 
